@@ -27,3 +27,8 @@ Change Extension to use Context Menu. Hardbake Boilerplates inside Extension.
 ### 1.0.2
 
 Update Boilerplates to include @incrementOnSave tag.
+
+### 1.0.3
+
+Update Boilerplates with correct Variable Names
+Add OnSave Boilerplate to FormLibrary

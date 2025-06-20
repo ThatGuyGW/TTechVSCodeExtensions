@@ -2,7 +2,7 @@
   "name": "ttechviewmodelfilecreator",
   "displayName": "TTechViewModelFileCreator",
   "description": "Creates Boilerplate Files for the Telefoncia Tech JS View Model Standard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.100.0"
   },
