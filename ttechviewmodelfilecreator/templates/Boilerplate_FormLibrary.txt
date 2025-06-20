@@ -4,13 +4,13 @@
  * @incrementOnSave
  * @version 1.0.0.0
  * @author  <AUTHORNAME>
- * @param   {object}    ppLibrary        An instance of the TTechPPLibrary model
+ * @param   {object}    PowerPlatform_SharedLibrary        An instance of the TTechPPLibrary model
  * 
  */
 
 function CreateViewModel(executionContext) {
-    var ppLibrary = new TTechPPLibrary(executionContext);
-    return <ENTITYNAME>_ViewModel(ppLibrary);
+    var PowerPlatform_SharedLibrary = new TTechPPLibrary(executionContext);
+    return <ENTITYNAME>_ViewModel(PowerPlatform_SharedLibrary);
 }
 
 function OnLoad(executionContext) {
