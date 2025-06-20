@@ -9,17 +9,17 @@
  * @incrementOnSave
  * @version 1.0.0.0
  * @author  <AUTHORNAME>
- * @param   {object} ppLibrary      An instance of the TTechPPLibrary model
+ * @param   {object} PowerPlatform_SharedLibrary      An instance of the TTechPPLibrary model
  *
  */
 
-var <ENTITYNAME>_ViewModel = function (ppLibrary) {
+var <ENTITYNAME>_ViewModel = function (PowerPlatform_SharedLibrary) {
     var _model = this;
 
     //#region Constants
 
     /** @type {import('../../TTechPPLibrary').TTechPPLibrary} */
-    const _ppLibrary = ppLibrary;
+    const _PowerPlatform_SharedLibrary = PowerPlatform_SharedLibrary;
 
     const formStructure = {
         tabs: {
@@ -50,13 +50,14 @@ var <ENTITYNAME>_ViewModel = function (ppLibrary) {
 
     }
 
+
     /**
-     * Business logic for the on change event of the ChangeType Field. This function will be invoked by the "_FormLibrary".
+     * Business logic for the on save event. This function will be invoked by the "_FormLibrary".
      *
      * @memberof <ENTITYNAME>_ViewModel
      * @function
      */
-    _model.ChangeType_OnChange = function () {
+    _model.OnSave = function () {
 
     }
 
